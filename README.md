@@ -32,7 +32,7 @@ def get_img(self, img_id, mask_list):
 ```
 You can apply the aforementioned process as the first stage we mentioned for the backbone.
 
-### score data
+### Score data
 You can find our computed scores in the `/score/{backbone}/` directory. Each key corresponds to an index, and the sequence of these indices aligns with the public dataset captions. You are free to segment according to the scores and select randomly as needed.
 
 ou can apply the selected samples as the second stage for the backbone.
