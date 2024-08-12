@@ -20,7 +20,8 @@ For those interested in the CLIP4CIR project, you can access its resources and c
 ### Masked Image Data
 
 Our mask blocks are located in the `/mask/` directory. You can use them with the library provided in the `image_masked.py` file. Below is an example function from our script that demonstrates how to load and apply masks to an image:
-
+You can also use 'creat_masked_patches.py' to creat masked dataset on other image datasets.
+Here is an example how to use masked image in your dataset code.
 ```python
 def get_img(self, img_id, mask_list):
     img_path = os.path.join(self.path, f"test/ILSVRC2012_test_{img_id}.JPEG")
